@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $to = "tu_correo@gmail.com"; // Dirección de correo donde se enviará el mensaje
+  $to = "zyb.gestion.ingenieria@gmail.com"; // Dirección de correo donde se enviará el mensaje
   $subject = "Suscripción a actualizaciones"; // Asunto del correo
 
   // Obtener el correo electrónico ingresado en el formulario
