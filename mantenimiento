@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estamos trabajando en ello</title>
+</head>
+<body>
+  <h1>Estamos trabajando en esta página</h1>
+  <p>Disculpa las molestias. Pronto estará disponible.</p>
+
+  <h2>¡Déjanos tu correo para recibir actualizaciones!</h2>
+  <form action="suscripcion.php" method="post">
+    <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+    <button type="submit">Suscribirse</button>
+  </form>
+
+  <h2>Síguenos en nuestras redes sociales:</h2>
+  <ul>
+    <li><a href="https://www.facebook.com/p/ZYB-Gesti%C3%B3n-Ingenieria-100032283894585/?locale=hi_IN&paipv=0&eav=AfZ9C0PLIBFZA2rNrxkkGAeze6m7MEN7EdrSjR6j6jE1LtdQQDgYZcx5k6N8rIEMay8&_rdr" target="_blank">Facebook</a></li>
+    <li><a href="https://www.linkedin.com/in/zyb-ingenieria-919427203/?originalSubdomain=ar" target="_blank">Linkedin</a></li>
+    <li><a href="https://www.instagram.com/zyb.ingenieria/?hl=es-la" target="_blank">Instagram</a></li>
+  </ul>
+</body>
+</html>
