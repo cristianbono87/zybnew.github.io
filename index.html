@@ -65,12 +65,28 @@
   </ul>
 
     <h2>Contáctanos</h2>
+    
+    <form action="mailto:destinatario@example.com" method="post" enctype="text/plain">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+    
+    
+<!--     
     <form action="enviar_formulario.php" method="post">
       <input type="text" name="nombre" placeholder="Nombre" required>
       <input type="email" name="email" placeholder="Correo electrónico" required>
       <textarea name="mensaje" placeholder="Mensaje" required></textarea>
       <button type="submit">Enviar</button>
-    </form>
+    </form> -->
   </div>
 </body>
 </html>
