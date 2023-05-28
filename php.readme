@@ -1,0 +1,5 @@
+Recuerda reemplazar "tu_correo@gmail.com" con la dirección de correo electrónico donde deseas recibir los mensajes.
+
+Ten en cuenta que este es un ejemplo básico y utiliza la función mail() de PHP para enviar correos. Sin embargo, esta función puede no funcionar correctamente en todos los servidores, ya que depende de la configuración del servidor. En algunos casos, es posible que necesites utilizar una biblioteca de terceros como PHPMailer o enviar correos a través de una API de servicios de correo electrónico.
+
+Además, asegúrate de validar y filtrar los datos ingresados en el formulario antes de enviarlos por correo electrónico para garantizar la seguridad y evitar problemas como el correo no deseado.
